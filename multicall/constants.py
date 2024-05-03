@@ -78,6 +78,7 @@ class Network(IntEnum):
     PulseChain = 369
     PulseChainTestnet = 943
     TaikoA6 = 167008
+    TaikoA7 = 167009
 
 MULTICALL_ADDRESSES: Dict[int,str] = {
     Network.Mainnet: '0xeefBa1e63905eF1D7ACbA5a8513c70307C1cE441',
@@ -173,6 +174,7 @@ MULTICALL3_ADDRESSES: Dict[int,str] = {
     Network.PulseChainTestnet: '0xcA11bde05977b3631167028862bE2a173976CA11',
     Network.Base: '0xcA11bde05977b3631167028862bE2a173976CA11',
     Network.TaikoA6: '0xEE1F1a198E974f83a4d70361CE18578D805B2d9A',
+    Network.TaikoA7: '0xfc19BABf85213199d8Ab80F05ACdBFD681D32ecB',
 }
 
 # With default AsyncBaseProvider settings, some dense calls will fail
